@@ -3,7 +3,7 @@ const stack = ['React', 'React Native', 'Nextjs', 'Javascript', 'Typescript', 'G
 
 const TechnicalStack = () => {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10" id="TechnicalStack">
       <h2 className="text-3xl">Technical Stack</h2>
       <div className="flex flex-1 flex-row gap-y-4 gap-x-12 flex-wrap justify-between">
         {stack.map(el => {

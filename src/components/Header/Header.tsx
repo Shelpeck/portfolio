@@ -7,12 +7,11 @@ const list = "cursor-pointer"
 
 const Header = () => {
   return (
-    <nav className="flex border-b-gray-400 border-b-2 ">
+    <nav className="fixed w-full flex py-2 border-b-gray-400 border-b-2 backdrop-blur z-1000 ">
       <p className="text-5xl text-center">Portfolio</p>
       <ul className="flex flex-1 flex-row gap-4 items-center justify-end pr-10">
-        <li className={list}><a>About</a></li>
-        <li className={list}><a>Stack</a></li>
-        <li className={list}><a>Experience</a></li>
+        <li className={list}><a href="#TechnicalStack">Technical Stack</a></li>
+        <li className={list}><a href="#Experience">Experience</a></li>
       </ul>
       <ul className="flex flex-row gap-1 items-center ">
         <li className={list}><a href="https://github.com/Shelpeck" target="_blank"><GithubIcon /></a></li>

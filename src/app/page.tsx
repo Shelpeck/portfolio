@@ -1,3 +1,4 @@
+import Experience from "@/components/Experience/Experience";
 import Hero from "@/components/Hero/Hero";
 import TechnicalStack from "@/components/TechnicalStack/TechnicalStack";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 gap-20 sm:items-start">
         <Hero />
         <TechnicalStack />
+        <Experience />
       </main>
     </div>
   );
