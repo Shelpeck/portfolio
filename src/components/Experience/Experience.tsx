@@ -68,7 +68,7 @@ const Experience = () => {
                 <strong className="text-slate-200">Advanced Interactive UIs:</strong> Engineered a reusable component library featuring real-time notification architectures, interactive drag-and-drop dashboards, and native hardware bindings (Camera/Image processing).
               </li>
               <li>
-                <strong className="text-slate-200">Deeplinking and Notifications:</strong> Engineered a comprehensive push notification ecosystem using Firebase (FCM) and Notifee, mapping payload configurations to React Navigation deep links to drop users directly into active order monitoring views.
+                <strong className="text-slate-200">Deeplink and Notifications:</strong> Engineered a comprehensive push notification ecosystem using Firebase (FCM) and Notifee, mapping payload configurations to React Navigation deep links to drop users directly into active order monitoring views.
               </li>
             </ul>
           </div>
